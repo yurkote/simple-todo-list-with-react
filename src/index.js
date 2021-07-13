@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
    ReactDom.render(
       <App />,
-      document.querySelector('.app')
+      document.getElementById('app')
    )
-
+   
 });
